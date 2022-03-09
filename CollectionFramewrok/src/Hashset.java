@@ -12,7 +12,7 @@ indmap.put(10, "Rohit");
 Map<Integer,String> ausmap = new HashMap<Integer, String>();
 ausmap.put(1, "Smith");
 ausmap.put(22, "Warner");
-ausmap.put(2, "Maxwell");
+ausmap.put(12, "Maxwell");
 
 Map<Integer,String> iplmap = new HashMap<Integer, String>();
 iplmap.putAll(indmap);
@@ -23,5 +23,6 @@ iplmap.remove(22);
 System.out.println("key:"+iplmap.containsKey(1));
 System.out.println("value"+iplmap.containsValue("Rohit"));
 System.out.println(iplmap.get(8));
+System.out.println(iplmap.get(12));
 System.out.println(iplmap.size());
 }}
